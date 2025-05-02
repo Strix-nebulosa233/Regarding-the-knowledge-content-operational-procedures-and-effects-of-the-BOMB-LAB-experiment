@@ -9,7 +9,7 @@ Before the experiment begins, place an image of Theresa here. If you feel tired 
 <div align="center">
   <img src="./have a break.jpg" alt="Bathing Theresa: A Vision of Serene Repose">
   <br>
-  <small>Set debugging breakpoint</small>
+  <small>Bathing Theresa: A Vision of Serene Repose</small>
 </div>
 
 ### Analysis before the experiment
