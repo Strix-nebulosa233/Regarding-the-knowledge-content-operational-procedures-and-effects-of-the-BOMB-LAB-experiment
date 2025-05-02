@@ -24,6 +24,14 @@ sudo apt-get install -y gdb binutils
 sudo apt-get install -y wget
 # Optional, for downloading files
 ```
+Additionally, make sure you have the necessary permissions for the file; you can use the following command to check:<br>
+```
+ls -l bomb
+```
+Next, the following command can be used to grant permissions
+```
+chmod +x bomb
+```
 Next, start using the GNU Debugger (GDB) to debug the 'bomb' file.
 
 _When debugging the 'bomb' program using GNU Debugger (GDB), the process fundamentally involves analyzing compiled binary executable files rather than directly interacting with source code. To begin, ensure the program has been properly compiled with debugging symbols retained (typically via compiler flags like -g), as GDB relies on these symbols to map machine instructions to source-level constructs. Upon launching GDB, the debugger loads the executable's symbol table and memory layout, enabling breakpoint placement, register inspection, and stack trace analysis at the assembly or high-level language level. Critical challenges arise when debugging incomplete codebases: if the binary references unobtainable dependencies (e.g., missing header files or libraries), GDB cannot resolve symbolic information for affected components, limiting analysis to available code segments. In such cases, debugging integrity requires either acquiring/reconstructing missing dependencies or focusing exclusively on executable portions with complete symbol information.<br>_
