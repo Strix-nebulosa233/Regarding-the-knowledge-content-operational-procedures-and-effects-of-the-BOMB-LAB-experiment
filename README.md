@@ -7,4 +7,4 @@ First, observe the code you have, which calls from phase_0 to phase_6(Of course,
 Next, let's go through this experiment step by step.<br>
 
 ### Analysis before the experiment
-Although the BOMB file declares two files: support.h and phases.h, in practice, the actual problem may only provide an executable file named bomb, and bomb.c may be an incomplete framework file (for example, without support.h and phases.h). In such cases, there is no need to compile the source code; instead, the bomb should be disassembled through reverse engineering.<br>
+Although the BOMB file declares two files: support.h and phases.h, in practice, the actual problem may only provide an executable file named bomb, and bomb.c may be an incomplete framework file (for example, without support.h and phases.h). In such cases, there is no need to compile the source code; instead, the bomb should be disassembled through reverse engineering. So, when the compilation fails, don't panic and don't doubt that there's something wrong with the problem; it's a normal occurrence.<br>
