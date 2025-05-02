@@ -5,6 +5,12 @@ If you merely follow the existing tutorials, you may find it challenging to perf
 Additionally, it is worth noting that the document "23331128" is the original assignment file given to me by my teacher, which is my student ID. If your teacher has also assigned you the same exact homework, please note that the answers I obtained after completing my experiment and the answers you should obtain for your homework are likely to be different. Therefore, directly copying my conclusions is not advisable.<br>
 First, observe the code you have, which calls from phase_0 to phase_6(Of course, in some versions, it calls from phase_1 to phase_6, reducing one issue). After each phase succeeds, the program outputs different prompts, and the phase numbers increase sequentially and clearly. This indicates that there are seven issues waiting to be addressed. Finally, based on the hints(/* Wow, they got it!  But isn't something... missing?  Perhaps. * something they overlooked?  Mua ha ha ha ha! */), it can be guessed that this experiment has a hidden question, which can be temporarily referred to as Question 8.<br>
 Next, let's go through this experiment step by step.<br>
+Before the experiment begins, place an image of Theresa here. If you feel tired during the experiment, you can look back at this image; perhaps she can bring you passion and strength. <br>
+<div align="center">
+  <img src="./have a break.jpg" alt="Bathing Theresa: A Vision of Serene Repose">
+  <br>
+  <small>Set debugging breakpoint</small>
+</div>
 
 ### Analysis before the experiment
 Although the BOMB file declares two files: support.h and phases.h, in practice, the actual problem may only provide an executable file named bomb, and bomb.c may be an incomplete framework file (for example, without support.h and phases.h). In such cases, there is no need to compile the source code; instead, the bomb should be disassembled through reverse engineering. So, when the compilation fails, don't panic and don't doubt that there's something wrong with the problem; it's a normal occurrence.<br>
