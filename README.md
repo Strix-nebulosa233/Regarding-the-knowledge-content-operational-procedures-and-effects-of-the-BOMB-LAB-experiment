@@ -11,6 +11,10 @@ Although the BOMB file declares two files: support.h and phases.h, in practice, 
 Next, install the debugging tools first. In the terminal, run the following code to download the tool. <br>
 ```
 sudo apt-get update
-sudo apt-get install -y gdb binutils  # Install Debugging Tools
-sudo apt-get install -y wget         # Optional, for downloading files
+sudo apt-get install -y gdb binutils
+# Install Debugging Tools
+sudo apt-get install -y wget
+# Optional, for downloading files
 ```
+When setting debugging breakpoints, unexpected additional breakpoints were found. So the 'strings bomb' command was used to investigate.<br>
+
