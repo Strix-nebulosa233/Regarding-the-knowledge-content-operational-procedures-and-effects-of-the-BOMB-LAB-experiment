@@ -16,5 +16,5 @@ sudo apt-get install -y gdb binutils
 sudo apt-get install -y wget
 # Optional, for downloading files
 ```
-When setting debugging breakpoints, unexpected additional breakpoints were found. So the 'strings bomb' command was used to investigate.<br>
+When setting debugging breakpoints, unexpected additional breakpoints were found(See the image below for details on "Set debugging breakpoint."). So the 'strings bomb' command was used to investigate.<br>
 
