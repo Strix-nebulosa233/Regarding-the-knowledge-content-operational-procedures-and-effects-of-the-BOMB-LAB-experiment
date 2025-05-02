@@ -18,7 +18,7 @@ sudo apt-get install -y wget
 ```
 When setting debugging breakpoints, unexpected additional breakpoints were found(See the image below for details on "Set debugging breakpoint."). So the 'strings bomb' command was used to investigate.<br>
 <div align="center">
-  <img src="./assets/Set debugging breakpoint.png" alt="Set debugging breakpoint">
+  <img src="./Set debugging breakpoint.png" alt="Set debugging breakpoint">
   <br>
   <small>Set debugging breakpoint</small>
 </div>
