@@ -37,6 +37,7 @@ When setting debugging breakpoints, unexpected additional breakpoints were found
   <small>Set debugging breakpoint</small>
 </div>
 After detection, the following important information was obtained (with some deletions).<br>
+
 ```
 Welcome to my fiendish little bomb. You have 7 phases with
 which to blow yourself up. Have a nice day!
@@ -67,4 +68,5 @@ Curses, you've found the secret phase!
 But finding it and solving it are quite different...
 Congratulations! You've defused the bomb!
 ```
+
 Obviously, by observing these, this problem does have hidden questions beyond the 0-6 questions.<br>
