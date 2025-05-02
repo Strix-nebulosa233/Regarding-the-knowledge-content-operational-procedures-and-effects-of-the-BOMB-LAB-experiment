@@ -25,9 +25,8 @@ sudo apt-get install -y wget
 # Optional, for downloading files
 ```
 Next, start using the GNU Debugger (GDB) to debug the 'bomb' file.
-<span style="color: #6a737d; font-style: italic; font-size: 0.9em">
-  这是发灰的斜体小字（常用于注释或补充说明）
-</span>
+
+_这是 <span style="color: #6a737d; font-size: 0.9em">灰色斜体小字</span>_
 
 When setting debugging breakpoints, unexpected additional breakpoints were found(See the image below for details on "Set debugging breakpoint."). So the 'strings bomb' command was used to investigate.<br>
 <div align="center">
