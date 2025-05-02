@@ -24,6 +24,11 @@ sudo apt-get install -y gdb binutils
 sudo apt-get install -y wget
 # Optional, for downloading files
 ```
+Next, start using the GNU Debugger (GDB) to debug the 'bomb' file.
+<span style="color: #6a737d; font-style: italic; font-size: 0.9em">
+When debugging the 'bomb' program using GNU Debugger (GDB), the process fundamentally involves analyzing compiled binary executable files rather than directly interacting with source code. To begin, ensure the program has been properly compiled with debugging symbols retained (typically via compiler flags like -g), as GDB relies on these symbols to map machine instructions to source-level constructs. Upon launching GDB, the debugger loads the executable's symbol table and memory layout, enabling breakpoint placement, register inspection, and stack trace analysis at the assembly or high-level language level. Critical challenges arise when debugging incomplete codebases: if the binary references unobtainable dependencies (e.g., missing header files or libraries), GDB cannot resolve symbolic information for affected components, limiting analysis to available code segments. In such cases, debugging integrity requires either acquiring/reconstructing missing dependencies or focusing exclusively on executable portions with complete symbol information.<br>
+</span>
+
 When setting debugging breakpoints, unexpected additional breakpoints were found(See the image below for details on "Set debugging breakpoint."). So the 'strings bomb' command was used to investigate.<br>
 <div align="center">
   <img src="./Set debugging breakpoint.jpg" alt="Set debugging breakpoint">
