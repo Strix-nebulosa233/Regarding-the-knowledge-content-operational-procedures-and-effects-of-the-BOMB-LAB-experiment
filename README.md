@@ -36,3 +36,35 @@ When setting debugging breakpoints, unexpected additional breakpoints were found
   <br>
   <small>Set debugging breakpoint</small>
 </div>
+After detection, the following important information was obtained (with some deletions).<br>
+```
+Welcome to my fiendish little bomb. You have 7 phases with
+which to blow yourself up. Have a nice day!
+Well done! You seem to have warmed up!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+Halfway there!
+So you got that one.  Try this one.
+Good work!  On to the next...
+23331128
+rI5aKdLsFXC49WeoGLmfXjdz3pLtpcIH7KQthE2N4l0IWrDboJZREuUMssagIvDRHHiNSw39g5Ym
+Bell Labs used the a.out format.
+%d %d
+Wow! You've defused the secret stage!
+So you think you can stop the bomb with ctrl-c, do you?
+Well...
+OK. :-)
+Invalid phase%s
+%d %d %d %d %d %d
+Error: Premature EOF on stdin
+GRADE_BOMB
+Error: Input line too long
+BOOM!!!
+The bomb has blown up.
+%d %d %s
+CbSbho
+Curses, you've found the secret phase!
+But finding it and solving it are quite different...
+Congratulations! You've defused the bomb!
+```
+Obviously, by observing these, this problem does have hidden questions beyond the 0-6 questions.<br>
