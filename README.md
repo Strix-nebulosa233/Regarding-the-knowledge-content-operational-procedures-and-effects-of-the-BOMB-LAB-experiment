@@ -26,7 +26,7 @@ sudo apt-get install -y wget
 ```
 Next, start using the GNU Debugger (GDB) to debug the 'bomb' file.
 
-_这是 <span style="color: #6a737d; font-size: 0.9em">灰色斜体小字</span>_
+_To initiate <span style="color: #6a737d; font-size: 0.9em"> debugging of the 'bomb' program using GNU Debugger (GDB), ensure the executable has been compiled with debug symbols (gcc -g -o bomb bomb.c) and execute gdb -q ./bomb in the terminal. Note that GDB operates on compiled binaries, not source code files—if the executable is unavailable, compilation is required first. Should the source code reference unobtainable dependencies (e.g., missing header files), debugging becomes technically infeasible until such components are reconstructed or acquired.</span>_
 
 When setting debugging breakpoints, unexpected additional breakpoints were found(See the image below for details on "Set debugging breakpoint."). So the 'strings bomb' command was used to investigate.<br>
 <div align="center">
