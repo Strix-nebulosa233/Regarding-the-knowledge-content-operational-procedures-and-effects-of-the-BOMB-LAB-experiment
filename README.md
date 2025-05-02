@@ -15,6 +15,7 @@ Before the experiment begins, place an image of Theresa here. If you feel tired 
 ### Analysis before the experiment
 Since this tutorial aims to help students who haven't attended a single class get started quickly and learn how to operate, ultimately understanding the principles, I will repeatedly mention many things that you might assume don't need further explanation.<br>
 Although the BOMB file declares two files: support.h and phases.h, in practice, the actual problem may only provide an executable file named bomb, and bomb.c may be an incomplete framework file (for example, without support.h and phases.h). In such cases, there is no need to compile the source code; instead, the bomb should be disassembled through reverse engineering. So, when the compilation fails, don't panic and don't doubt that there's something wrong with the problem; it's a normal occurrence.<br>
+To prevent some students from being completely clueless, here's an additional tip: before debugging or performing any operations on the source code, make sure the computer knows which source code file you're working with. So, first, use the 'cd' command to navigate to the folder containing the source code file, and then proceed with other operations.<br>
 Next, install the debugging tools first. In the terminal, run the following code to download the tool. <br>
 ```
 sudo apt-get update
