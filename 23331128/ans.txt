@@ -2,6 +2,7 @@ Bell Labs used the a.out format.
 1065353216 1103602071
 192 97 49 25 13 7
 4 475
-5 35
+5 35 CbSbho
 0158OO
 3 5 2 7 4 6 1 8
+50
