@@ -4,3 +4,4 @@ Bell Labs used the a.out format.
 4 475
 5 35
 0158OO
+3 5 2 7 4 6 1 8
